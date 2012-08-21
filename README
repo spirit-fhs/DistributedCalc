@@ -1,0 +1,16 @@
+Getting started:
+
+install eclipse and the Scala IDE for eclipse
+
+install scala 2.9.0
+
+install akka 2.0-M2
+
+
+import the projects from this repository into your eclipse workspace
+
+the classes from the api project are needed in all other projects but shared
+
+the shared project is needed in the classpath of server and client
+
+export PiCalc and MathOp as Jar and put the Jar files to the classpath of server
